@@ -1,3 +1,5 @@
+name: Scheduled event
+
 on:
   schedule:
     - cron: '*/5 * * * *'
