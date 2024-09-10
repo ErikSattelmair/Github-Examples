@@ -10,7 +10,7 @@ jobs:
       id: step1
       run: echo Hallo
     - name: Step 2
-      needs: [step1]
+      if: steps.step1.outcome == 'success'
       run: echo Welt
   job2:
     runs-on: ubuntu-latest
