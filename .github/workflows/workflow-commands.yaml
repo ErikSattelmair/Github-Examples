@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   showcase:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Showcase 1
         run: |
