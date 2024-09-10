@@ -8,4 +8,4 @@ jobs:
     steps:
       - name: Showcase 1
         run: |
-          echo 'Hallo'
+          echo my_env='Hallo' >> $GITHUB_ENV
